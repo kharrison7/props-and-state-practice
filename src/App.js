@@ -102,6 +102,7 @@ class App extends Component {
               <h4 className="card-subtitle mb-2 text-muted">Comments</h4>
                 <div className="card comments col-md-5">
                   {this.state.comments.map( (comment) => {
+                    // key={this.state.comments[1]}
                     return <div>
                       <p>{comment.comment}</p>
                       <p>{comment.author}</p>
